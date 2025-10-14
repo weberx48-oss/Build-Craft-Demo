@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BuildCraft - Construction Firm</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+    <nav>
+      <img src="images/BUILD-removebg-preview.png" alt="BuildCraft Logo" class="logo">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">&#9776;</div>
+    </nav>
+    <div class="hero">
+      <h1 data-aos="fade-down">Building Tomorrow, Today</h1>
+      <p data-aos="fade-up">Professional construction solutions for residential & commercial projects.</p>
+      <a href="#projects" class="cta-btn" data-aos="zoom-in">View Projects</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" data-aos="fade-up">
+    <h2>About Us</h2>
+    <p>BuildCraft delivers high-quality construction solutions with innovation, safety, and efficiency at the core. Our mission is to transform visions into reality.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2 data-aos="fade-up">Our Services</h2>
+    <div class="services-container">
+      <div class="service-card" data-aos="fade-up" data-aos-delay="100">Residential Construction</div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="200">Commercial Construction</div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="300">Renovation & Remodeling</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+<section id="projects">
+  <h2 data-aos="fade-up">Our Projects</h2>
+
+  <!-- Project 1 -->
+  <div class="project-row" data-aos="fade-right">
+    <div class="project-image"><img src="images/1.jpg" alt="Project 1"></div>
+    <div class="project-desc">
+      <h3>Project One</h3>
+      <p>A modern residential building designed for comfort and style, with sustainable materials and cutting-edge technology.</p>
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="project-row reverse" data-aos="fade-left">
+    <div class="project-image"><img src="images/2.avif" alt="Project 2"></div>
+    <div class="project-desc">
+      <h3>Project Two</h3>
+      <p>Commercial complex featuring eco-friendly design, high-quality interiors, and efficient space planning for businesses.</p>
+    </div>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="project-row" data-aos="fade-right">
+    <div class="project-image"><img src="images/3.avif" alt="Project 3"></div>
+    <div class="project-desc">
+      <h3>Project Three</h3>
+      <p>Renovation of historic building with modern amenities, preserving architectural heritage while upgrading functionality.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 BuildCraft. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+</body>
+</html>
